@@ -29,7 +29,7 @@ public class Calculadora {
 	
 	//------------------------------------------------
 	
-	//metodo Sumar; Devuelve el resultado de la suma de los numeros
+	//metodo Sumar; Devuelve el resultado de la suma de los números
 	public int sumar()
 	{
 		int resultado=numero1+numero2;
@@ -38,7 +38,7 @@ public class Calculadora {
 	
 	//------------------------------------------------
 	
-	//metodo restar; Devuelve el resultado de la resta de los numeros
+	//metodo restar; Devuelve el resultado de la resta de los números
 	public int restar()
 	{
 		int resultado=numero1-numero2;
@@ -47,11 +47,16 @@ public class Calculadora {
 	
 	//------------------------------------------------
 	
+	//Devuelve el resultado de la división de los números
 	public int dividir()
 	{
 		int resultado=numero1/numero2;
 		return resultado;
 	}
+	
+	//-------------------------------------------------
+	
+	//Devuelve el resultado de la multiplicación de los números
 	public int multiplicar()
 	{
 		int resultado=numero1*numero2;
