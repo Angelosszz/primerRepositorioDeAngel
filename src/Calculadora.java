@@ -52,6 +52,10 @@ public class Calculadora {
 		int resultado=numero1/numero2;
 		return resultado;
 	}
+	public int multiplicar()
+	{
+		int resultado=numero1*numero2;
+		return resultado;
 	}
 	
 }
