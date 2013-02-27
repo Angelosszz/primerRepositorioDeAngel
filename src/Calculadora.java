@@ -73,4 +73,10 @@ public class Calculadora {
 		return resultado;
 	}
 	
+	public int factorial(int numero)
+	{
+	      if(numero==0) return 1;   //AXIOMA
+	      else return numero*factorial(numero);  //FORMULA RECURSIVA
+	} 
+	
 }
