@@ -1,11 +1,13 @@
 
 public class Calculadora {
 	private int numero1,numero2;
+	private String color;
 	
-	public Calculadora(int numero1, int numero2)
+	public Calculadora(int numero1, int numero2, String color)
 	{
 		this.numero1=numero1;
 		this.numero2=numero2;
+		this.color=color;
 	}
 	
 	//-----------------------------------------------
