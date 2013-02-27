@@ -49,6 +49,14 @@ public class Calculadora {
 	
 	//------------------------------------------------
 	
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	//Devuelve el resultado de la división de los números
 	public int dividir()
 	{
