@@ -73,6 +73,9 @@ public class Calculadora {
 		return resultado;
 	}
 	
+	//--------------------------------------------------
+	
+	//Devuelve el resultado del factorial del número introducido
 	public int factorial(int numero)
 	{
 	      if(numero==0) return 1;   //AXIOMA
