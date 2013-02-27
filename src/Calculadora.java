@@ -76,7 +76,7 @@ public class Calculadora {
 	public int factorial(int numero)
 	{
 	      if(numero==0) return 1;   //AXIOMA
-	      else return numero*factorial(numero);  //FORMULA RECURSIVA
+	      else return numero*factorial(numero-1);  //FORMULA RECURSIVA
 	} 
 	
 }
