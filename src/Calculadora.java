@@ -64,7 +64,7 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	//-------------------------------------------------
+	//-------------------------------------------------hmcf
 	
 	//Devuelve el resultado de la multiplicación de los números
 	public int multiplicar()
